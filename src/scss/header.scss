@@ -1,0 +1,13 @@
+.header {
+    width: 100%;
+    height: $header-footer-height;
+    border-bottom: 1px solid $header-footer-border-color;
+    background-color: $inside-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 2em;
+      font-weight: bold;
+    }
+}

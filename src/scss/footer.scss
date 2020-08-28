@@ -1,0 +1,17 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  &__box {
+    width: 100%;
+    height: $header-footer-height;
+    background-color: $inside-color;
+    border-top: 1px solid $header-footer-border-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+body {
+  background-color: $outside-color;
+  min-width: 500px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  body {
+    width: 500px;
+    overflow-x: scroll;
+  }
+}
